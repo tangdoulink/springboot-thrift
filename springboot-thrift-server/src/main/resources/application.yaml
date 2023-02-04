@@ -1,0 +1,13 @@
+server:
+  port: 9090
+
+thrift:
+  thrift-port: 9000
+  thrift-timeout: 5000
+  thrift-tcp-backlog: 5000
+  thrift-core-threads: 128
+  thrift-min-threads-size: 64
+  thrift-max-threads-size: 256
+  thrift-selector-threads: 16
+  thrift-max-read-buf-size: 4
+  thrift-max-frame-size: 16
